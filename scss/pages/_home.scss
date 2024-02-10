@@ -1,0 +1,185 @@
+.hero__container {
+  background-image: url(../images/home/desktop/bg-pattern-hero-home.svg);
+  background-size: 640px;
+  background-position: right;
+  background-repeat: no-repeat, repeat;
+  width: 1111px;
+  background-color: $Peach;
+  height: 600px;
+  border-radius: 20px;
+  padding: 145px 0 0 95px;
+  display: flex;
+  position: relative;
+  margin-bottom: 160px;
+  .hero__titail {
+    h1 {
+      width: 500px;
+      font-size: $h1-font-siez;
+      line-height: $h1-lain-hait;
+      font-family: "Jost";
+      color: #ffffff;
+      margin-bottom: 30px;
+    }
+    p {
+      width: 445px;
+      font-size: $p-font-siez;
+      line-height: $p-lain-hait;
+      font-family: "Jost";
+      color: #ffffff;
+      margin-bottom: 40px;
+    }
+  }
+  .hero__img img {
+    margin-top: -18px;
+    margin-left: 130px;
+    height: 473px;
+  }
+}
+
+.section__container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  .imeg {
+    background-image: url(../images/home/desktop/image-web-design-large.jpg);
+    width: 541px;
+    height: 640px;
+    border-radius: 15px;
+    padding: 273px 136px 273px 137px;
+    text-align: center;
+    cursor: pointer;
+    &:hover {
+      background-image: linear-gradient(
+          rgba(231, 129, 107, 0.5),
+          rgba(231, 129, 107, 0.5)
+        ),
+        url(../images/home/desktop/image-web-design-large.jpg);
+    }
+    a {
+      font-family: "Jost";
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 22px;
+      letter-spacing: 5px;
+      text-align: left;
+      color: #ffffff;
+    }
+    h2 {
+      font-family: "Jost";
+      font-size: 37px;
+      font-weight: 500;
+      line-height: $h2-lain-hait;
+      letter-spacing: 2px;
+      text-align: left;
+      color: #ffffff;
+      margin-bottom: 24px;
+    }
+  }
+  .imegs {
+    .img1 {
+      background-image: url(../images/home/desktop/image-app-design.jpg);
+      padding: 107px 143px 107px 144px;
+      border-radius: 15px;
+      width: 541px;
+      height: 308px;
+      margin-bottom: 24px;
+      text-align: center;
+      cursor: pointer;
+      &:hover {
+        background-image: linear-gradient(
+            rgba(231, 129, 107, 0.5),
+            rgba(231, 129, 107, 0.5)
+          ),
+          url(../images/home/desktop/image-app-design.jpg);
+      }
+      a {
+        font-family: "Jost";
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 5px;
+        text-align: left;
+        color: #ffffff;
+      }
+      h2 {
+        font-family: "Jost";
+        font-size: 38px;
+        font-weight: 500;
+        line-height: $h2-lain-hait;
+        letter-spacing: 2px;
+        text-align: left;
+        color: #ffffff;
+        margin-bottom: 24px;
+      }
+    }
+    .img2 {
+      background-image: url(../images/home/desktop/image-graphic-design.jpg);
+      padding: 107px 88px 107px 89px;
+      border-radius: 15px;
+      width: 541px;
+      height: 308px;
+      text-align: center;
+      cursor: pointer;
+      &:hover {
+        background-image: linear-gradient(
+            rgba(231, 129, 107, 0.5),
+            rgba(231, 129, 107, 0.5)
+          ),
+          url(../images/home/desktop/image-graphic-design.jpg);
+      }
+      a {
+        font-family: "Jost";
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 5px;
+        text-align: left;
+        color: #ffffff;
+      }
+      h2 {
+        font-family: "Jost";
+        font-size: 38px;
+        font-weight: 500;
+        line-height: $h2-lain-hait;
+        letter-spacing: 2px;
+        text-align: left;
+        color: #ffffff;
+        margin-bottom: 24px;
+      }
+    }
+  }
+}
+
+.section1__container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 160px;
+  .section1__navbar {
+    text-align: center;
+    width: 350px;
+    img {
+      margin-left: 70px;
+      margin-bottom: 68px;
+    }
+    h3 {
+      font-family: "Jost";
+      font-size: $h3-font-siez;
+      font-weight: 500;
+      line-height: $h3-lain-hait;
+      letter-spacing: 5px;
+      text-align: center;
+      margin-bottom: 32px;
+      color: #333136;
+    }
+    p {
+      font-family: Jost;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      letter-spacing: 0px;
+      text-align: center;
+      color: #333136;
+    }
+  }
+}

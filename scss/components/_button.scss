@@ -1,0 +1,38 @@
+.button1 {
+  padding: 18px 25px 16px 24px;
+  background: $WHITE;
+  font-family: "Jost";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: $DARK_GREY;
+  border-radius: 15px;
+  border: none;
+  transition: all 0.3s;
+  cursor: pointer;
+  &:hover {
+    background: $LIGHT_PEACH;
+    color: $WHITE;
+  }
+}
+
+.button2 {
+  padding: 18px 25px 16px 24px;
+  background: $Peach;
+  font-family: "Jost";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #ffffff;
+  border: none;
+  transition: all 0.3s;
+  cursor: pointer;
+  &:hover {
+    background: $LIGHT_PEACH;
+    color: $WHITE;
+  }
+}

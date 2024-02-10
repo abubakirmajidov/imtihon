@@ -1,0 +1,28 @@
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .header__logo img {
+    width: 196px;
+    height: 24px;
+  }
+
+  .header__nabar ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    a {
+      font-family: Jost;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 14px;
+      letter-spacing: 2px;
+      text-align: left;
+      color: $DARK_GREY;
+      transition: all 0.9s;
+      &:hover {
+        border-bottom: 1px solid $DARK_GREY;
+      }
+    }
+  }
+}
